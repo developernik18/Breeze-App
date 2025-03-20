@@ -70,7 +70,7 @@ const WeatherApp: React.FC = () => {
 
 
   return (
-    <div className="max-w-3xl mx-auto p-8 min-h-screen flex flex-col items-center rounded-lg shadow-lg text-gray-900 bg-gray-100">
+    <div className="max-w-3xl mx-auto p-8 min-h-screen flex flex-col items-center rounded-lg text-gray-900 bg-gray-100">
       <h2 className="text-4xl font-bold mb-6 text-center">Breeze App</h2>
       <SearchBar city={city} setCity={setCity} fetchWeather={fetchWeather} />
       <RecentSearches recentSearches={recentSearches} fetchWeather={fetchWeather} removeSearch={removeSearch} />
